@@ -27,11 +27,11 @@ function random(min, max) {
 
 function preload() {
     soundFormats('mp3', 'ogg');
-    mySound = loadSound("sounds/Samba Isobel.mp3");
-    release = loadSound("sounds/trumpetSoloEdited.mp3");
-    fail = loadSound("sounds/JazzGuitarEdited.mp3");
-    miss = loadSound("sounds/crashCymbolEdited.mp3");
-    hit = loadSound("sounds/drumFillEdited.mp3");
+    mySound = loadSound("sounds/sounds/Samba Isobel.mp3");
+    release = loadSound("sounds/sounds/trumpetSoloEdited.mp3");
+    fail = loadSound("sounds/sounds/JazzGuitarEdited.mp3");
+    miss = loadSound("sounds/sounds/crashCymbolEdited.mp3");
+    hit = loadSound("sounds/sounds/drumFillEdited.mp3");
 }
 
 function setup() {
