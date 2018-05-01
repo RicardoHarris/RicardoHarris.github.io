@@ -22,9 +22,14 @@
     }
     
     p {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         text-align: left;
+        text-indent: 20px;
+    }
+    
+    .intro {
+        text-align: center;
     }
     
     #nav-bar {
@@ -39,24 +44,6 @@
         overflow: hidden;
         text-align: center;
     }
-    /*div {
-    float: left;
-}
-
-div li {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li {
-    display: inline
-}
-
-
-/* Change the link color to #111 (black) on hover */
     
     div li:hover {
         background-color: #111;
@@ -104,4 +91,13 @@ li {
     .container {
         display: flex;
         justify-content: center;
+    }
+    
+    footer {
+        background-color: #bbbbbb;
+        margin-bottom: 0px;
+    }
+    
+    .derriere {
+        margin-bottom: 0px;
     }
